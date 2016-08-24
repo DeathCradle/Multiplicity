@@ -52,6 +52,8 @@ namespace Multiplicity.Packets
 			/*030*/ { PacketTypes.TogglePVP, (br) => new TogglePVP(br) },
 			/*031*/ { PacketTypes.GetChestContents, (br) => new GetChestContents(br) },
 			/*032*/ { PacketTypes.ChestItem, (br) => new ChestItem(br) },
+			/*033*/ { PacketTypes.SetChestName, (br) => new SetChestName(br) },
+			/*034*/ { PacketTypes.PlaceChest, (br) => new PlaceChest(br) },
 			/*035*/ { PacketTypes.HealEffect, (br) => new HealEffect(br) },
 			/*036*/ { PacketTypes.PlayerZone, (br) => new PlayerZone(br) },
 			/*037*/ { PacketTypes.RequestPassword, (br) => new RequestPassword(br) },

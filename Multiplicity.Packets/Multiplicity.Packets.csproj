@@ -41,6 +41,8 @@
     <Compile Include="AlterItemDrop.cs" />
     <Compile Include="GetChestName.cs" />
     <Compile Include="NPCUpdate.cs" />
+    <Compile Include="PlaceChest.cs" />
+    <Compile Include="SetChestName.cs" />
     <Compile Include="UpdatePlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TerrariaPacket.cs" />
