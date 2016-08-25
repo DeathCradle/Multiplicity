@@ -48,6 +48,7 @@ namespace Multiplicity.Packets
 			/*025*/ { PacketTypes.ChatMessage, (br) => new ChatMessage(br) },
 			/*026*/ { PacketTypes.PlayerDamage, (br) => new PlayerDamage(br) },
 			/*028*/ { PacketTypes.NPCStrike, (br) => new NPCStrike(br) },
+			/*027*/ { PacketTypes.ProjectileUpdate, (br) => new ProjectileUpdate(br) },
 			/*029*/ { PacketTypes.DestroyProjectile, (br) => new DestroyProjectile(br) },
 			/*030*/ { PacketTypes.TogglePVP, (br) => new TogglePVP(br) },
 			/*031*/ { PacketTypes.GetChestContents, (br) => new GetChestContents(br) },
